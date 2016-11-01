@@ -6,7 +6,7 @@ var express         = require( 'express' );
 var http            = require( 'http' );
 var path            = require( 'path' );
 var engine          = require( 'ejs-locals' );
-var favicon         = require( 'serve-favicon' );
+// var favicon         = require( 'serve-favicon' );
 var cookieParser    = require( 'cookie-parser' );
 var bodyParser      = require( 'body-parser' );
 var methodOverride  = require( 'method-override' );
@@ -24,7 +24,7 @@ app.use(express.static(__dirname + '/public'))
 app.engine( 'ejs', engine );
 app.set( 'views', path.join( __dirname, '/views' ));
 app.set( 'view engine', 'ejs' );
-app.use( favicon( __dirname + '/public/favicon.ico' ));
+// app.use( favicon( __dirname + '/public/favicon.ico' ));
 app.use( logger( 'dev' ));
 app.use( methodOverride());
 app.use( cookieParser());
