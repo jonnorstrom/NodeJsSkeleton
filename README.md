@@ -1,4 +1,4 @@
-# NodeJsSkeleton
+# Node.js / Express.js Skeleton
 A skeleton for a small node web-application
 
 To run, make sure you are in the top directory.
