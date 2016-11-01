@@ -1,6 +1,6 @@
 {
-  "name": "whoIsHiring",
-  "version": "0.0.1",
+  "name": "NodeExpressSkeleton",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "pre-start" : "npm install",
