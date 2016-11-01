@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  /*color: white;*/
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.main {
+  max-width: 375px;
+  border-radius: 3px;
+  margin: auto;
+  /*background-color: rgba(20, 20, 20, .6);*/
+}
+
+.tree {
+  display: inline-block;
+  padding: 40px;
+  border: 1px black dotted;
+  border-radius: 3px;
+}
